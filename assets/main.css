@@ -124,7 +124,7 @@ nav {
   text-align: center;
   background-color: #000000;
   background: url(https://images.unsplash.com/photo-1505798577917-a65157d3320a)
-    no-repeat center center fixed;
+    no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -324,6 +324,11 @@ footer {
     order: 1;
     display: block;
     width: auto;
+  }
+
+  #header {
+    background: url(https://images.unsplash.com/photo-1505798577917-a65157d3320a)
+      no-repeat center center fixed;
   }
 
   .services-icon {

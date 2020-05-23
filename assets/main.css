@@ -329,6 +329,10 @@ footer {
   #header {
     background: url(https://images.unsplash.com/photo-1505798577917-a65157d3320a)
       no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .services-icon {
